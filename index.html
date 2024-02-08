@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha em Turno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Seção do jogo -->
+    <div class="battle-container">
+        <!-- Informações do Herói -->
+        <div id="hero" class="character">
+            Herói: <span id="heroHP">200 HP</span> | 
+            Nível <span id="heroLevel">1</span> | 
+            XP: <span id="heroXP">0</span> | 
+            Ouro: <span id="heroGold">0</span>
+        </div>
+
+        <!-- Informações do Monstro -->
+        <div id="monster" class="character">Monstro: <span id="monsterHP">100 HP</span></div>
+
+        <!-- Botão de Ataque -->
+        <button onclick="heroAttack()">Atacar</button>
+
+        <!-- Botão para usar poções -->
+        <button onclick="usePotion()">Usar Poção</button>
+
+        <!-- Botão para comprar poções na loja -->
+        <button onclick="buyPotion()">Comprar Poção (50 Ouro)</button>
+
+       <!-- Seção de inventário -->
+<div class="inventory" id="inventory">
+    <h2>Inventário</h2>
+    <!-- Aqui será exibido o inventário -->
+</div>
+
+    </div>
+
+    <!-- Incluindo o script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
