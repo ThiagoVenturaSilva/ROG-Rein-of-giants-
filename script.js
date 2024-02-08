@@ -34,7 +34,6 @@ function addToInventory(item) {
     }
 }
 
-// ... (código anterior)
 
 // Função para usar poções
 function usePotion() {
@@ -87,7 +86,6 @@ function buyPotion() {
     }
 }
 
-// ... (restante do código)
 
 
 // Função para atualizar a exibição do inventário
@@ -123,10 +121,7 @@ function buyPotion() {
     }
 }
 
-// ... (restante do código)
-
-
-// ... (restante do código, incluindo funções como heroAttack, monsterAttack, etc.)
+// incluindo funções como heroAttack, monsterAttack, etc.)
 
 // Função de Ataque do Herói
 function heroAttack() {
