@@ -10,8 +10,6 @@ var monstersDefeated = 0;
 var potionsInInventory = 2; // Defina a quantidade inicial de poções no inventário
 var maxPotionsAllowed = 10; // Defina o número máximo de poções permitidas
 
-// ... (código anterior)
-
 // Função para adicionar itens ao inventário
 function addToInventory(item) {
     var inventoryElement = document.getElementById("inventory");
